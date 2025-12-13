@@ -14,47 +14,54 @@ In this lab, I created a dynamic group for the IT department and applied a Multi
 
 . Zero Trust concepts
 
+<img width="3024" height="1604" alt="Untitled design" src="https://github.com/user-attachments/assets/0d33dccd-24e1-4f11-9d32-00dabd402cfd" />
 
 
-<img width="1512" height="802" alt="0 1" src="https://github.com/user-attachments/assets/45819fd2-19d7-4ced-a591-e31d361bd1c4" />
+
 
 **STEP 1:**
 
 We can see the dynamic group members in the IT department here, which are Daniel Carter and Liam Thompson.
 
 
+<img width="1512" height="764" alt="1" src="https://github.com/user-attachments/assets/c0f651e1-fc24-4849-b655-5368e74ca757" />
 
 
 
-<img width="1512" height="805" alt="Screenshot 2025-12-11 at 9 43 06 PM" src="https://github.com/user-attachments/assets/fdc39d85-fe95-4bf5-a17f-0a0856bd52b0" />
+
 **STEP 2:** 
 
 In this step, I created a Conditional Access policy that requires Multi-factor Authentication (MFA) for the IT department. I targeted the IT dynamic group so only IT staff are required to authenticate with MFA, ensuring stronger protection for accounts with elevated access.
 
-<img width="1512" height="804" alt="1" src="https://github.com/user-attachments/assets/66d4989a-edb1-4799-8cd7-da1f819e992e" />
+<img width="3024" height="1608" alt="Untitled design-2" src="https://github.com/user-attachments/assets/c9ced4bc-a382-4e9e-8b64-e24f594eb807" />
+
 
 **STEP 3:**
 
 In this step, I excluded my break-glass admin account and my own admin account from the MFA policy. This is a best practice so administrators don’t get locked out if MFA fails or if there’s an outage. Only the IT dynamic group is required to follow the MFA rule, while emergency and admin accounts remain accessible.
 
-<img width="1512" height="805" alt="3" src="https://github.com/user-attachments/assets/5e85e003-6c5f-458b-bde4-f263f7f69031" />
+<img width="3024" height="1610" alt="Untitled design-3" src="https://github.com/user-attachments/assets/a244655f-f75f-4e03-8b3c-464ab35f8c61" />
+
 
 **STEP 4:**
 
 In this step, I set the policy to apply to all cloud apps/resources. This means every sign-in attempt from an IT department user will require MFA, no matter which Microsoft service they access. I did this to make sure the MFA requirement is enforced consistently across the entire environment, not just a single app.
 
-<img width="1512" height="805" alt="4" src="https://github.com/user-attachments/assets/35ac73d1-7627-4c93-94fd-db6f9b414b9e" />
+<img width="3024" height="1610" alt="Untitled design-4" src="https://github.com/user-attachments/assets/663cedf1-14e2-495f-a36b-e1135b63728f" />
+
 
 **STEP 5:**
 
 In this step, I configured the Grant controls for the Conditional Access policy. I selected “Grant access” and enabled “Require multi-factor authentication”. This enforces that any IT department user must complete MFA before being allowed into any cloud resource. This is the final action that activates the security requirement we designed for this policy.
 
-<img width="1512" height="803" alt="we can see daniel from the IT department login portal was triggered by the MFA conditional access rule we created for his dynamic group  (1)" src="https://github.com/user-attachments/assets/6bb6169d-2bea-49d1-8dc1-e08c4166690d" />
+ <img width="3024" height="1606" alt="Untitled design-5" src="https://github.com/user-attachments/assets/06ed5d80-aae2-42b4-ad7d-917e60fc81f0" />
+
 
 In this screenshot, Daniel from the IT department attempts to sign in and is immediately prompted to set up an additional verification method. This happens because the MFA Conditional Access policy we applied to the IT dynamic group is being enforced. Since Daniel is a member of that group, the system requires him to configure MFA before he’s allowed access.
 
+<img width="3024" height="1610" alt="Untitled design-6" src="https://github.com/user-attachments/assets/ba6f8fba-14fe-4560-992f-ad2c69e72e35" />
 
-<img width="1512" height="805" alt="Screenshot 2025-12-05 at 9 18 34 PM (1)" src="https://github.com/user-attachments/assets/6bd8814d-f768-496a-880b-9108b7bbbd30" />
+
 
 In this screenshot, Daniel is required to install the Microsoft Authenticator app because the MFA policy is enforcing setup. Since he hasn’t registered MFA yet, the system guides him to complete the setup before allowing access.
 
