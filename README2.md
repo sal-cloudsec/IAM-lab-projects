@@ -1,4 +1,4 @@
-# Require Compliant Device Policy (LAB)
+# Require Compliant Device Policy 
 
 # Lab Goal / Objective
 
