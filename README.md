@@ -19,7 +19,7 @@ In this lab, I created a dynamic group for the IT department and applied a Multi
 
 
 
-**STEP 1:**
+**Screen Shot 1:**
 
 We can see the dynamic group members in the IT department here, which are Daniel Carter and Liam Thompson.
 
@@ -29,7 +29,7 @@ We can see the dynamic group members in the IT department here, which are Daniel
 
 
 
-**STEP 2:** 
+**Screen Shot 2:** 
 
 In this step, I created a Conditional Access policy that requires Multi-factor Authentication (MFA) for the IT department. I targeted the IT dynamic group so only IT staff are required to authenticate with MFA, ensuring stronger protection for accounts with elevated access.
 
