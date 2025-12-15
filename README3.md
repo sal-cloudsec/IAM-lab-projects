@@ -29,7 +29,8 @@ This policy helps strengthen an organization’s security posture by ensuring al
 
 - Configured user scope by including all users while excluding specific accounts (such as break-glass or emergency accounts) to prevent administrative lockout during enforcement.
 
-<img width="1306" height="806" alt="2" src="https://github.com/user-attachments/assets/ab1a5fd9-4ba8-4127-b87c-bb1abad0d827" />
+
+<img width="2612" height="1612" alt="Untitled design" src="https://github.com/user-attachments/assets/4e3312d8-f82c-4c5f-8761-2f87f5c68144" />
 
 
 
