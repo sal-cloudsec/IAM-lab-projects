@@ -1,4 +1,4 @@
-# Block Legacy Authentication Using Conditional Access (LAB)
+# Block Legacy Authentication Using Conditional Access 
 
 ## Overview
 
