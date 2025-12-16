@@ -4,15 +4,16 @@ In this lab, I created a dynamic group for the IT department and applied a Multi
 ---
 # Skills demonstrated
 
-. Dynamic groups
+- Dynamic groups
 
-. Conditional Access
+- Conditional Access
 
-. MFA enforcement
+- MFA enforcement
 
-. Break-glass best practices
+- Break-glass best practices
 
-. Zero Trust concepts
+- Zero Trust concepts
+
 ---
 <img width="3024" height="1604" alt="Untitled design" src="https://github.com/user-attachments/assets/0d33dccd-24e1-4f11-9d32-00dabd402cfd" />
 
