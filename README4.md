@@ -2,7 +2,7 @@
 
 # Require MFA Based on Sign-In Risk Using Conditional Access
 
-## Overview
+## Objective
 
 In this lab, I configured a Conditional Access policy in Microsoft Entra ID to require multifactor authentication (MFA) when a sign-in is detected as medium or high risk. This approach uses Microsoft’s real-time risk signals to dynamically enforce stronger authentication only when suspicious activity is identified.
 
