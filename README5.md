@@ -1,5 +1,36 @@
 ## **Require Password Reset for High-Risk Users Using Conditional Access**
 
+---
+**Objective**
+
+The objective of this lab is to configure a Conditional Access policy in Microsoft Entra ID that automatically forces a password reset when a user is identified as high risk. Using Identity Protection risk signals, this policy demonstrates how organizations can rapidly remediate potentially compromised accounts, reduce account takeover risk, and enforce Zero Trust identity controls while validating the policy safely in report-only mode.
+
+----
+**Skills Used**
+
+-Microsoft Entra ID (Azure AD)
+
+-Conditional Access policy design
+
+-Identity Protection (User Risk detection)
+
+-Risk-based access control
+
+-Automated password reset enforcement
+
+-Break-glass account protection
+
+-Report-only policy validation
+
+-Incident response and account remediation
+
+-Zero Trust identity security principles
+
+-Enterprise IAM best practices
+
+
+---
+
 
 **Screenshot 1 – Conditional Access Policy Creation (User Risk-Based Password Reset)**
 
