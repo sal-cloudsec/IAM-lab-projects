@@ -1,5 +1,4 @@
-
-
+## **Require Password Reset for High-Risk Users Using Conditional Access**
 
 
 **Screenshot 1 – Conditional Access Policy Creation (User Risk-Based Password Reset)**
