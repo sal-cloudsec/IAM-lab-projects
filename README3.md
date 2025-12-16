@@ -6,6 +6,7 @@ In this lab, I configured a Conditional Access policy in Microsoft Entra ID to b
 
 This policy helps strengthen an organization’s security posture by ensuring all sign-ins use modern authentication protocols that support MFA and Conditional Access enforcement.
 
+---
 
 ## Skills Demonstrated
 
@@ -16,7 +17,7 @@ This policy helps strengthen an organization’s security posture by ensuring al
 * Security posture hardening
 * Zero Trust principles
 
-
+---
 
 **Screenshot 1 – Conditional Access Policy Creation (Operations Group Targeting)**
 
