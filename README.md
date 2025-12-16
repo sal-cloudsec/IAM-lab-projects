@@ -1,4 +1,8 @@
 # Creating a Dynamic Group for the IT Department and Applying an MFA Policy 
+---
+ 
+**objective**
+
 
 In this lab, I created a dynamic group for the IT department and applied a Multi-factor Authentication (MFA) Conditional Access policy to it. IT staff often have elevated access, so requiring MFA adds a critical layer of security and supports a Zero Trust approach by making sure only verified users can access sensitive resources.
 ---
